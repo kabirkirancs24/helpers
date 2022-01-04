@@ -1,97 +1,104 @@
-            body {
-                background-color: rgb(236, 234, 243);
-                margin: 0;
-                width: 100%;
-                height: 70%;
-            }
-            
-            #i {
-                 max-width: 100%;
-                 max-height: 100%;;
-               }
-            
-            .heading {
-                background-color: rgb(226, 223, 223);
-                animation-name: example;
-                animation-duration: 10s;
-            }
-            
-            table {
-                background-color: rgb(119, 131, 111);
-            }
-            
-            .example {
-                background-color: whitesmoke;
-            }
-            
-            .helper {
-                background-color: rgb(28, 241, 64);
-            }
-            
-            .s {
-                background-color: rgb(236, 113, 30);
-            }
-            
-            @keyframes example {
-                from {
-                    background-color: whitesmoke;
-                }
-                to {
-                    background-color: seagreen;
-                }
-            }
-            
-            .satyam {
-                background-color: seagreen;
-            }
-            
-            a:link {
-                color: springgreen;
-                background-color: transparent;
-                text-decoration: none;
-            }
-            
-            .example:hover {
-                color: rgb(0, 89, 255);
-                background-color: transparent;
-                text-decoration: underline;
-            }
-            
-            a:visited {
-                color: purple;
-                background-color: transparent;
-                text-decoration: none;
-            }
-            
-            a:active {
-                color: yellow;
-                background-color: transparent;
-                text-decoration: none;
-            }
-            
-            .top {
-                background-color: whitesmoke;
-                animation-name: example;
-                animation-duration: 5s;
-                float: left;
-                margin-left: 0px;
-                border: rgb(250, 41, 41) 10px;
-                width: 90%;
-                height: 90%;
-            }
-            
-            img {
-                display: inline;
-                width: auto;
-                height: auto;
-            }
-            
-            .quote {
-                background-color: rgb(227, 238, 238);
-                display: inline;
-                width: auto;
-            }
-            
-            .middle {
-                background-color: whitesmoke;
-            }
+                                    body {
+                                    background-color: rgb(236, 234, 243);
+                                    margin: 0;
+                                    width: 100%;
+                                    height: 70%;
+                                }
+                                
+                                #i {
+                                    max-width: 100%;
+                                    max-height: 100%;
+                                    ;
+                                }
+                                
+                                .heading {
+                                    background-color: rgb(226, 223, 223);
+                                    animation-name: example;
+                                    animation-duration: 10s;
+                                }
+                                
+                                .example {
+                                    background-color: rgb(242, 243, 242);
+                                    top: 1000px;
+                                }
+                                
+                                .helper {
+                                    background-color: rgb(28, 241, 64);
+                                }
+                                
+                                .s {
+                                    background-color: rgb(236, 113, 30);
+                                }
+                                
+                                @keyframes example {
+                                    from {
+                                        background-color: rgb(248, 125, 10);
+                                    }
+                                    to {
+                                        background-color: rgb(30, 110, 65);
+                                    }
+                                }
+                                
+                                .satyam {
+                                    background-color: seagreen;
+                                }
+                                
+                                a:link {
+                                    color: springgreen;
+                                    background-color: transparent;
+                                    text-decoration: none;
+                                }
+                                
+                                .example:hover {
+                                    color: rgb(0, 89, 255);
+                                    background-color: transparent;
+                                    text-decoration: underline;
+                                }
+                                
+                                a:visited {
+                                    color: purple;
+                                    background-color: transparent;
+                                    text-decoration: none;
+                                }
+                                
+                                a:active {
+                                    color: yellow;
+                                    background-color: transparent;
+                                    text-decoration: none;
+                                }
+                                
+                                .top {
+                                    background-color: whitesmoke;
+                                    animation-name: example;
+                                    animation-duration: 5s;
+                                    float: left;
+                                    margin-left: 0px;
+                                    border: rgb(250, 41, 41) 10px;
+                                    width: 90%;
+                                    height: 90%;
+                                }
+                                
+                                img {
+                                    display: inline;
+                                    width: auto;
+                                    height: auto;
+                                }
+                                
+                                .quote {
+                                    background-color: rgb(227, 238, 238);
+                                    display: inline;
+                                    width: auto;
+                                }
+                                
+                                .middle {
+                                    background-color: whitesmoke;
+                                }
+                                
+                                @keyframes examples {
+                                    from {
+                                        background-color: rgb(14, 10, 7);
+                                    }
+                                    to {
+                                        background-color: rgb(231, 243, 236);
+                                    }
+                                }
