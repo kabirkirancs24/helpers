@@ -5,9 +5,10 @@
                 height: 70%;
             }
             
-            img {
-                height: auto;
-            }
+            #i {
+                 max-width: 100%;
+                 max-height: 100%;;
+               }
             
             .heading {
                 background-color: rgb(226, 223, 223);
