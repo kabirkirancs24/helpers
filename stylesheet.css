@@ -81,8 +81,8 @@
             
             img {
                 display: inline;
-                width: 1000px;
-                height: 500px;
+                width: auto;
+                height: auto;
             }
             
             .quote {
